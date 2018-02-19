@@ -1,0 +1,56 @@
+#team img {
+	width: 100%;
+    max-width: 200px;
+    border-radius: 50%;
+    border: 2px solid #05bca9;
+    transition: all 0.1s ease-in;
+    padding: 10px;
+}
+
+.ribbon {
+	padding: 8px 20px;
+	position: relative;
+	top: -64px;
+	left: -42px;
+	background: #14181e;
+	border-radius: 0px 16px 16px 0px;
+    font-size: 13px;
+	color: white;
+}
+
+#team .card{
+	box-shadow: none;
+}
+
+#team .card .card-image{
+	height: 205px;
+	width: inherit;
+}
+
+#team .card .card-content {
+    border-top: none;
+}
+
+#team .card .card-content .sub-title{
+    color: #00a6c4 !important;
+	font-weight: 100;
+	font-size: 20px;
+}
+
+#team .card .card-content .card-title{
+    color: #fff;
+}
+
+#team .card .card-reveal .sub-title{
+    font-size: 17px;
+	color: #00a6c4;
+}
+
+#team .fa{
+	background: transparent;
+	padding: 0 !important;
+    width: inherit;
+    height: inherit;
+	float: right;
+    margin-right: 20px;
+}

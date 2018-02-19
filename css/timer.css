@@ -1,0 +1,54 @@
+
+
+.timer {
+  font-family: 'Roboto', sans-serif;
+  font-size: 100px;
+  font-weight: 100;
+  display: inline-block;
+  vertical-align: top;
+  letter-spacing: 5px;
+margin-top: 40px;
+}
+
+.text {
+  font-size: 18px;
+line-height: 5em;
+}
+
+.clock {
+  /* margin-top: 50px; */
+text-align: center;
+}
+
+.clock .column {
+  display: inline-block;
+  width: 21%;
+}
+
+
+.days {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .wrapper {
+      width: 100%;
+      padding: 0 20px;
+  }
+  .timer {
+      font-size: 35px;
+  }
+
+.text {
+  font-size: 12px;
+}
+
+#clock-separator{
+  display: none;
+}
+
+#clock-seconds{
+  display: none;
+}
+}
+
