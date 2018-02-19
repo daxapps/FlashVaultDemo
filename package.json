@@ -1,0 +1,19 @@
+{
+  "name": "flashvaultdemo",
+  "version": "1.0.0",
+  "description": "Flash Vault, a better crypto wallet.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daxapps/FlashVaultDemo.git"
+  },
+  "author": "Jason Crawford",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/daxapps/FlashVaultDemo/issues"
+  },
+  "homepage": "https://github.com/daxapps/FlashVaultDemo#readme"
+}
